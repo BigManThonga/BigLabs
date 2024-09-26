@@ -1,0 +1,102 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #252525; /* Background color */
+    color: white; /* Text color */
+}
+
+/* Header and top bar styling */
+header {
+    background: black; /* Top bar color */
+    padding: 10px 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Maximum width for centering */
+    margin: 0 auto; /* Centers the top bar */
+    padding: 0 20px; /* Spacing within the top bar */
+}
+
+.top-bar h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Space between navigation links */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Styling for sections on the page */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #333; /* Section background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+/* Styling for individual project listings */
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Removes underline from links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black; /* Footer color */
+    color: white; /* Footer text color */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
